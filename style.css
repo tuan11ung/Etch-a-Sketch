@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+h1 {
+  padding: 0;
+}
+
+button {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 820px;
+  flex: 1 0 auto;
+  
+  aspect-ratio: 1 / 1;
+}
+
+.grid-item {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
